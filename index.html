@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus contatos</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.png"> <!--Inserindo ícone na aba do navegador-->
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <img src="./img/logo.png" alt="Avatar de pessoas.">
+    <h1>Meus contatos</h1>
+    <form id="formularioEntrada"> <!--Inserindo o formulário-->
+        <input id="nome" type="text" required placeholder="Nome do contato"> <!--Inserção de id para identificar no JS-->
+        <input id="telefone" type="number" required placeholder="Número de telefone">
+        <button type="submit">+</button>
+    </form>
+    </div>
+    <div class="container">
+    <table><!--Inserindo a tabela-->
+        <thead>
+            <tr>
+                <th>Nomes:</th>
+                <th>Telefones:</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela"> <!--Inserção de id para identificar no JS e fazer a função de adicionar os nomes-->
+            <tr>
+                               
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/img/bg.png');
+    background-size: 1920px 1080px;
+    padding-top: 100px;
+}
+
+.container {
+    width: 80%; /* ou qualquer outra porcentagem ou valor fixo que você preferir */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body img {
+    height: 100px;
+}
+
+h1 {
+    font-family: 'Kalam', cursive;
+    color: #446599;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-color: #446599;
+    border-radius: 5px;
+}
+
+input::placeholder { /*alterando a margem interna do placeholder */
+    padding-left: 10px;
+}
+
+form button {
+    background-color: #F2694F;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: larger;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+table {
+    width: 50%;
+    align-content: center;
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+    font-family: 'Kalam', cursive;
+    color: #446599;
+    font-size: 24px;
+    border-bottom: 3px solid #446599;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+    font-family: 'Kalam', cursive;
+    color: grey;
+    font-size: medium;
+    border-bottom: 2px solid rgb(182, 182, 182);
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+
